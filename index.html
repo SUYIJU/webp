@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lightbox2/css/lightbox.css">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .banner img {
+            width:100%;
+        }
+
+
+        .text {
+            /* border: 1px solid black; */
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            justify-content: space-between;
+
+        }
+
+        .textbox {
+            /* border: 1px solid black; */
+            width: 360px;
+            /* background-color:#e5ff00; */
+            text-align: center;
+            /* height: 400px; */
+            /* text-align:left: */
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+        p {
+            text-align: left;
+            font-size: larger;
+            color: blueviolet
+        }
+
+        h2 {
+            font-size: 32px;
+            color: darkred
+        }
+
+        .slogan {
+            background-color: red;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .slogan h2 {
+            font-size: 40px;
+            color: #ffffff;
+            margin-top: 0;
+            margin-bottom: 0;
+
+        }
+
+        .recommend h2 {
+            font-size: 40px;
+            color: darkgreen;
+            text-align: center;
+        }
+
+        .classcontent {
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .classbox {
+            width: 325px;
+            box-shadow: 0 0 10px #00000041;
+            padding: 20px;
+        }
+
+        .classbox img {
+            width: 100%
+        }
+
+        .classbox h3 {
+            font-family: Arial;
+            font-size: 28px;
+        }
+
+        .classbox .p-blue {
+            font-family: Arial;
+            color: rgb(61, 61, 255);
+        }
+
+        .classbox p {
+            font-family: Arial;
+            font-size: 18px;
+            color: rgb(106, 106, 107);
+        }
+
+        .classbox p s {
+            font-size: 20px;
+        }
+
+        .classbox p span {
+            font-size: 22px;
+            color: rgb(253, 0, 0);
+            font-weight: bold;
+        }
+
+        .classbox .p-center {
+            text-align: center;
+        }
+
+        .classbox .div-center a {
+            background-color: red;
+            color: #ffffff;
+            text-decoration: none;
+            width: 100%;
+            display: block;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            font-size: 28px;
+        }
+
+        .classbox .div-center a:hover {
+            cursor: help;
+            background-color: rgb(77, 7, 7);
+        }
+
+        .classbox button {
+            background-color: green;
+            color: #ffffff;
+            border: none;
+            font-size: 20px;
+            padding: 10px 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .classbox .div-center {
+            text-align: center;
+        }
+
+        .classbox button:hover {
+            cursor: pointer;
+            background-color: rgb(3, 61, 25);
+        }
+
+        @media(min-width:640px) and (max-width:1119px){
+.text{
+    width: 80%;
+}
+.classcontent{
+    width: 80%;
+}
+.classbox{
+    width: 80%;
+    margin-right: 20px;
+}
+        }
+        @media(max-width:639px) {
+            #wrap {
+                border: 1px solid red;
+                width: 100%;
+            }
+
+            .text {
+                width: 90%;
+                display: block;
+            }
+
+            .textbox {
+                width: 90%;
+                margin: auto;
+            }
+
+            .slogan {
+                width: 100%;
+            }
+
+            .classcontent {
+                width: 90%;
+                display: block;
+            }
+
+            .classbox {
+                width: 90%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="banner">
+            <img src="image/banner.jpg" alt="banner圖" title="課程banner">
+            <div class="text">
+                <div class="textbox">
+                    <h2>標題1</h2>
+                    <p> 馬爾頓曾經說過，堅強的信心，能使平凡的人做出驚人的事業。想必各位已經看出了其中的端倪。若無法徹底理解創意，恐怕會是人類的一大遺憾。</p>
+                </div>
+                <div class="textbox">
+                    <h2>標題2</h2>
+                    <p> 馬爾頓曾經說過，堅強的信心，能使平凡的人做出驚人的事業。想必各位已經看出了其中的端倪。若無法徹底理解創意，恐怕會是人類的一大遺憾。</p>
+                </div>
+                <div class="textbox">
+                    <h2>標題3</h2>
+                    <p> 馬爾頓曾經說過，堅強的信心，能使平凡的人做出驚人的事業。想必各位已經看出了其中的端倪。若無法徹底理解創意，恐怕會是人類的一大遺憾。</p>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="slogan">
+            <h2>讓學習成為一種習慣</h2>
+
+
+        </div>
+        <div class="recommend">
+            <h2>推薦課程</h2>
+
+        </div>
+        <div class="classcontent">
+            <div class="classbox">
+
+                <a href="./image/unity.jpg" data-lightbox="image-1" data-title="Unity">
+                    <img src="./image/unity.jpg" alt="unity"></a>
+
+                <h3>Unity 5</h3>
+                <p class="p-blue">最新的Unity公開課程,讓你一步一步做出自己的心中理想的遊戲</p1>
+                <p>講師:XXX</p>
+                <p>影音課程時數:4小時</p>
+                <p class="p-center">
+                    <s>原價:NT$1600</s>
+                    <span>NT$1200</span>
+                </p>
+                <div>
+                    <a href="#">
+                        付款上課去
+                    </a>
+                </div>
+
+                <div class="div-center">
+                    <button>
+                        付款上課去
+                    </button>
+                </div>
+            </div>
+
+            <div class="classbox">
+
+                <a href="./image/gamesalad.jpg" data-lightbox="image-2" data-title="gamesalad">
+                    <img src="./image/gamesalad.jpg" alt="gamesalad"></a>
+
+                <h3>Gamesalad 2D遊戲製作</h3>
+                <p class="p-blue">最新的Unity公開課程,讓你一步一步做出自己的心中理想的遊戲</p1>
+                <p>講師:XXX</p>
+                <p>影音課程時數:4小時</p>
+                <p class="p-center">
+                    <s>原價:NT$1600</s>
+                    <span>NT$1200</span>
+                </p>
+                <div>
+                    <a href="#">
+                        付款上課去
+                    </a>
+                </div>
+
+                <div class="div-center">
+                    <button>
+                        付款上課去
+                    </button>
+                </div>
+            </div>
+
+            <div class="classbox">
+
+                <a href="./image/gwd.jpg" data-lightbox="image-3" data-title="gwd">
+                    <img src="./image/gwd.jpg" alt="gwd"></a>
+
+                <h3>Google Web Design</h3>
+                <p class="p-blue">最新的Unity公開課程,讓你一步一步做出自己的心中理想的遊戲</p1>
+                <p>講師:XXX</p>
+                <p>影音課程時數:4小時</p>
+                <p class="p-center">
+                    <s>原價:NT$1600</s>
+                    <span>NT$1200</span>
+                </p>
+                <div>
+                    <a href="#">
+                        付款上課去
+                    </a>
+                </div>
+
+                <div class="div-center">
+                    <button>
+                        付款上課去
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./lightbox2/js/lightbox-plus-jquery.js"></script>
+    <script src="./lightbox2/js/lightbox.js"></script>
+</body>
+
+</html>
